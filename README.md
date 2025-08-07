@@ -1,12 +1,34 @@
-# React + Vite
+# Mini Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Instrucciones para correr el proyecto
 
-Currently, two official plugins are available:
+### Prerrequisitos
+- Node.js (versión 16 o superior)
+- npm o yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalación y ejecución
 
-## Expanding the ESLint configuration
+1. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Ejecutar en modo desarrollo**
+   ```bash
+   npm run dev
+   ```
+
+3. **Abrir en el navegador**
+   - El proyecto se ejecutará en: `http://localhost:5173`
+   - Se abrirá automáticamente en tu navegador
+
+### Comandos disponibles
+
+```bash
+npm run dev      # Ejecutar en modo desarrollo
+npm run build    # Construir para producción  
+npm run preview  # Vista previa del build de producción
+npm run lint     # Ejecutar linter
+```
+
+Listo!  La aplicación estará funcionando en tu navegador local.
